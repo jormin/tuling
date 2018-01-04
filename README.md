@@ -25,7 +25,7 @@
 1. 获取自动回复信息
     
     ```php
-       $message = '西安天气'；
+       $message = '西安天气';
        $userID = '用户ID';
        $location = '陕西省西安市雁塔区';
        $tuLing = new Jormin\TuLing\TuLing($apiKey);
