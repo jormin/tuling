@@ -38,7 +38,7 @@ class TuLing{
             'loc' => $location
         ];
         $client = new Client();
-        $response = $client->post($this->$server, [
+        $response = $client->post($this->server, [
             'body' => json_encode($params)
         ]);
         return json_decode($response->getBody()->getContents(), true);
